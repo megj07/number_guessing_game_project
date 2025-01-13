@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 
 # Prompt for username
 echo "Enter your username:"
@@ -57,6 +57,7 @@ do
   then
     echo "It's higher than that, guess again:"
   else
+    # This is the corrected message format
     echo "You guessed it in $GUESS_COUNT tries. The secret number was $SECRET_NUMBER. Nice job!"
     break
   fi
